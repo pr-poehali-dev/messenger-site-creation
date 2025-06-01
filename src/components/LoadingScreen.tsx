@@ -25,6 +25,7 @@ const LoadingScreen = ({ onLoadingComplete }: LoadingScreenProps) => {
   return (
     <div className="fixed inset-0 bg-gradient-to-br from-emerald-400 to-emerald-600 flex flex-col items-center justify-center z-50">
       <div className="flex flex-col items-center space-y-8">
+        <h1 className="text-4xl font-bold text-white mb-4">Robsage</h1>
         <div className="relative">
           <img
             src="https://cdn.poehali.dev/files/e2a7a4d7-99c6-4872-bab4-9e003fa78766.png"
